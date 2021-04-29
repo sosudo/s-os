@@ -146,7 +146,7 @@ a.external:after {
 	left: 20px;
 	bottom: 20px;
 	font-size: 13px;
-	font-family: 'Roboto Mono';
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*-----------BODY & TEXT-----------*/
@@ -250,7 +250,7 @@ a.external:after {
 	padding: 40px 40px 40px 40px;
 	border-bottom: solid 40px var(--def);
 	margin: 0 40px 0 40px;
-	font-family: "Roboto Mono";
+	font-family: "Montserrat", sans-serif;
 	font-size: 13px;
 	background-color: var(--color);
 }
@@ -259,7 +259,7 @@ a.external:after {
 	width: calc(100% - 80px);
 	margin: 0 40px 40px 40px;
 	padding: 0 40px 0 40px;
-	font-family: "Roboto";
+	font-family: "Montserrat", sans-serif;
 	font-style: italic;
 	font-size: 20px;
 	line-height: 36px;
