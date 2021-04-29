@@ -28,9 +28,9 @@ function init() {
             }
             if(name=="null") {
                   name = "user";
-                  document.getElementById("greeter").innerHTML = `${status}`;
+                  document.getElementById("greeter").innerHTML = `${status}.`;
             } else {
-                  document.getElementById("greeter").innerHTML = `${status}, ${name}`;
+                  document.getElementById("greeter").innerHTML = `${status}, ${name}.`;
             }
             if(hour>12) {
                   hour = hour-12;
