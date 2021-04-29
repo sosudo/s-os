@@ -1,0 +1,10 @@
+name: Music
+
+image: Music
+
+title: Welcome to Clarity Music
+
+content:
+![Where would you like to go today?]
++
+/#[Cherophobia]

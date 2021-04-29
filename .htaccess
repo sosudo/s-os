@@ -1,0 +1,9 @@
+RewriteEngine on
+
+DirectoryIndex index.php
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ /index.php?v=$1 [NC,L]

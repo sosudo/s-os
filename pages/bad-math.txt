@@ -1,0 +1,90 @@
+name: Bad Math
+
+image: bad-math
+
+title: Bad Math
+
+content:
+?[_[Are you bad at math? Me too.]]
+![Introduction]
+Hi, yes, this is the most idiotic thing I've ever done. But it's ok! Also I'm pretty sure most of this math is incorrect! But at the same time, it's not cause I made it up and I can do whatever I want with it! "Why did I do this?", you may be asking. Well, because I wanted to divide by 0. Then I was like, "I hate integration!" And so, here we are.
++
+![Number System]
+First of all, let's get this straight. This is the dumbest "Number System" ever conceived in the history of this universe.
+Second of all, the way I did this was by finding a so-called "inefficient number".
+The way I achieved this is by making a Google Form and having a bunch of my friends do it.
+The google form had these questions: n+n (where n = 1,2,...,9) and n*n (where n = 1,2,...,9).
+The inefficient number would be the average number where we lose 100% correctness on the addition and multiplication parts.
+Below are the results from the google form:
++
+&[bad-math-inefficient-number]
+For the addition section, 100% correctness is lost at n=3, while at multiplication, 100% correctness was lost at n=5. So the inefficient number is (3+5)/2 = 4.
+Since I don't want to include 0 (it'll make more sense later), I get a number system of 1,2,3,4.
+Now, I can define this number system as B = {1,2,3,4}.
+Also, it's worth noting that any number less than 1 in the regular number system is equal to -∞. Any number greater than 4 in the regular system is equal to ∞.
+At this point, a person advanced enough in math would call out my BS. Unfortunately for that person, this is something I made up, and I can do whatever I want. So yes, 0 in the regular system is equivalent to -∞ in mine!
++
+![Operations]
+(Note: all operations are the same unless otherwise stated).
++
+1. Subtraction would be written as + with a negative sign on the second number.
++
+Example: 4 + -1 = 3
++
+2. Division would be written solely in fractional form.
++
+Example: 4/1 = 4
++
+3. There would be no need for exponents because everything lower than or greater than 1 and 4 respectively would be counted as -∞ and ∞.
++
+![Angles]
+The standard unit of angles (and in turn, slopes) would be a _[Radial Unit], denoted as Ru.
++
+1. 0 degrees = 1 Ru
++
+2. 30 degrees = 4/3 Ru
++
+3. 45 degrees = 3/2 Ru
++
+4. 60 degrees = 5/3 Ru
++
+5. 90 degrees = 2 Ru
++
+6. 180 degrees = 3 Ru
++
+7. 270 degrees = 4 Ru
++
+8. 360 degrees = 1 Ru
++
+![Dividing by Zero]
+In this number system, 0 would not exist. And, as previously stated,  any number less than one equals -∞ and any number greater than one equals ∞, we get that 0 in the regular system is equal to -∞ in this one.
+Since any constant divided by ∞ or -∞ is 0, and this number system doesn't have a zero, we define a new number N. N stands for ‘the Null Number’, which would be defined as a valueless number, much like how a zero acts in the regular system.
+Another property of this null number would be that when it is multiplied by an infinity, it equals L.
+L is defined as the “Boundless Number”, and it can be any number, much like a variable. However, L would not obey any normal or algebraic laws. Both L and N would be part of a new number set called “ the Classless Numbers”, denoted as C = {L, N}.
++
+From all of the above:
++
+Given a constant c, c/0 in the traditional system is c/-∞. c/-∞ in the traditional system is 0, but sense there is no zero in this one, c/-∞ = N.
++
+N*-∞ = L and L = any number from B.
++
+From all of the above:
++
+Our entire number system, denoted as R, is R = CUB (R is the union of sets C and B).
++
+![Integration]
+No. No integration. Instead, it'll be called _[functional assimilation]. The constant of integration would be the constant of assimilation.
+Indefinite integrals would be called _[unrestricted functional assimilations], denoted as f(A:x)[eq].
+Definite integrals would be called _[restricted functional assimilations], denoted as f(A: a->b, x)[eq] = f(A:x)[eq(b)+-eq(a)] = f(A:x)[eq(b)] +- f(A:x)[eq(a)].
+So, the indefinite integral of f(x) = x with respect to x would be written as f(A:x)[x] = (x^2)/2 + C.
+The definite integral of f(x) = x with respect to x from 1 to 2 would be written as f(A: 1->2, x)[x] = f(A:x)[x(2)+-x(1)] = f(A:x)[x(2)] + -f(A:x)[x(1)] = (2^2)/2 +-1/2 = 2 +-1/2 = 3/2.
++
+![Conclusion]
+Yeah, this was useless. But it was surprisingly fun to make, so here we are! Hope you enjoyed reading this, or at least laughed at this absurd nonsense.
+I hope you have a great life! Bye!
++
+_[Upload Date: September 8, 2020]
++
+_[Revision Number: 6]
++
+_[Time: 10:10 PM EST]

@@ -1,0 +1,21 @@
+name: S · OS
+
+image: index
+
+title: Welcome to Clarity
+
+content:
+?[_[All works on this site are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License unless otherwise stated.]]
++
+![Where would you like to go today?]
+/@[Latest Post>/An Existential Lemon]
++
+/#[404]
++
+/#[Math]
++
+/#[Music]
++
+/#[Philosophy]
++
+/@[Lucent Vault>/resources/index.html]

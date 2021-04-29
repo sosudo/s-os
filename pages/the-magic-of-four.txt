@@ -1,0 +1,71 @@
+name: The Magic of Four
+
+image: the-magic-of-four
+
+title: The Magic of Four
+
+content:
+?[_[What's the point of math after algebra? Absolutely nothing, my friend.]]
+![Introduction]
+Hello again. This isn't as dumb as the #[Bad Math] article, but I'll try to keep it as close to that as possible (in terms of idiocy and amusement).
+For some context, I was scrolling through @[Instagram>https://www.instagram.com/], and I found this meme page I follow, @[acf3301>https://www.instagram.com/acf3301/].
+He had something in his story, so I clicked on it and saw a meme that added S=1+2+3+4+... by grouping every number after 1 in groups of threes, like this: S=1+(2+3+4)+(5+6+7)+...
++
+After that, they added it all up, like this: S=1+9+18+27+...
++
+Then they factored out 9 like this: S=1+9(1+2+3+4+5+...), which led them to S=1+9S, which meant that S=-1/8.
+This is much like how the @[Ramanujan Summation>https://en.wikipedia.org/wiki/Ramanujan_summation] works.
+I saw this and went, "I wanna try this!"
+So uh, here we are.
++
+![What Actually Happened]
+So I started off well (at least that's what I thought).
+I started off with S=1+2+3+4+5+6+...
++
+Then I added every number in pairs, which led me to S=3+7+11+15+...
++
+After that, I tried writing this new S as an arithmetic sequence: S(n)=3+(n-1)4=4n-1. This leads me to two discoveries:
++
+  1. This is useless in what I was trying to accomplish.
++
+  2. The common difference in S(n) is 4.
++
+And with that, I started a new endeavor.
++
+![Differences and Sets, the Importance of Four]
+Of course, I didn't realize that I was going to be setting sail on a new ship. No, not at all. Instead, I tried again, at first.
+This time I tried adding every number after 1 in pairs, which led me to S=1+5+9+13+...
++
+But again, this is useless in the problem I was trying to solve. But, I saw a similar pattern here as well. If I write the integers of this new S as a set, I get {1,5,9,13,...}.
++
+The common difference in this set after the first term is also 4, just like in the arithmetic sequence I made on my first attempt. That's kinda cool, isn't it?
++
+This four sparked a new idea.
++
+![Les resultats (The Results)]
+So then, after a lot of fooling around with these sets and sequences, this is what I found out:
++
+  1. Given any set a={n,n+1,n+2,...}: if set b is {n+n+1,n+2+n+3,n+4+n+5,...}, then the common difference (d) of set b is 4.
++
+  2. Given any set a={n,n+1,n+2,...}: if set b is {n,n+1+n+2,n+3+n+4,...}, then the common difference of set b after the first term (d) is 4, and the common difference of set b from the first term to the second (c) is n+3, which is also the 4th term in set a.
++
+  3. Given any set a={n,n+1,n+2,...}: the common difference (d) of set a is 1.
++
+![Examples]
+1. Given a={1,2,3,4,5,6,7,...}: set b can be written as {3,7,11,15,...}, the common difference of set a is 1, and the common difference of set b is 4.
++
+2. Given a={1,2,3,4,5,6,7,...}: set b can be written as {1,5,9,13,...}, the common difference after the first term in set b is 4, the common difference of set b from the first term to the second is 4 (which is the 4th term in set a), and the common difference of set a is 1.
++
+3. Given a={3,4,5,6}: set b can be written as {7,11}, the common difference of set b is 4, and the common difference of set a is 1.
++
+4. Given a={3,4,5,6,7,8,9}: set b can be written as {3,9,13,17}, the common difference of set b after the first term is 4, the common difference of set b from the first term to the second term is 6 (which is the 4th term in set a), and the common difference of set a is 1.
++
+![Conclusion]
+All of this may seem fascinating to you. Or it may not, I don't really care. I think this is really cool. Also, I don't know if this is already a thing or not, so I'm sorry if I just stole this from a mathematician!
+Also, this doesn't really have an application to anything, it's just amazing to me. Hope you enjoyed reading this. Have a great life! Bye!
++
+_[Upload Date: September 9, 2020]
++
+_[Revision Number: 2]
++
+_[Time: 9:35 PM EST]

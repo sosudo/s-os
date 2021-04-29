@@ -1,0 +1,12 @@
+name: Math
+
+image: math
+
+title: Welcome to Clarity Math
+
+content:
+![What math article would you like to go today?]
++
+/#[The Magic of Four]
++
+/#[Bad Math]

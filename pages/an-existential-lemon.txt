@@ -1,0 +1,127 @@
+name: An Existential Lemon
+
+image: an-existential-lemon
+
+title: An Existential Lemon
+
+content:
+?[_[When someone tells you to expect the unexpected, slap them in the face and ask them if they expected it.]]
+![Introduction]
+Hello again. Over the summer, during Coronacation, I asked 32 of my friends about why and how we exist. Some gave enormous answers, some gave one word answers. Some had religious answers, some had scientific answers, while some others were just confused. By the end of this, I wanted to find out how people felt about this topic. So, here we are.
++
+![Answers]
+First of all, here are some of the answers I got. I won't disclose all of them due to privacy concerns, however I will share my answer, my friend Xander's answer, and my friend Reid's answer (don't worry, I asked them if I could use their answers).
++
+1. "Well for the latter part, do we really need to know? Because the simple fact is, we’re not gonna change if we know who created us or how they did it. We’re gonna continue living the way we did. We’re going to continue loving our friends and family, we’re going to continue to get hurt, to fall in love, to cry, to smile, to laugh, to scream, to both enjoy and despise life at moments. If we learn that there is a god that created us, what are we going to do with that information? Nothing. So then why do we constantly ask how we exist? Why, since the dawn of civilization at the Euphrates River, have humans asked this all important question? Why have we created deities and religions trying to explain who made us or how we exist? Well, because we think it’ll help us learn why we exist. Because we think that if we find this god(s), we’ll find out exactly why they created us. To that end, I say shouldn’t we be the ones deciding why we exist? Every choice we make defines who we are. Every friend we make and every teacher we’ve ever had defines who we are. Our families and unique experiences define who we are. So then why should we be looking for a reason to exist when we could just as easily make one of our own liking? Humans are one of the rare species  who were given the intelligence to question themselves, and the world around them. We have the ability to make choices and genuinely think about their consequences. So let’s use it. Let’s use this amazing biological miracle of sentience we have, and make our own purposes, our own futures, and our own destinies. We can either live in an endless loop of questions, where we question ourselves and our very existence. Or we could go out there, enjoy our lives, be truly happy, and choose our own purpose. So then, what’s the meaning of life? To live it’s what I’m guessing.
+" - me
++
+2. "As for why, to further God's amusement. As for how, God." - Xander
++
+3. "I think we exist purely based on science itself. I don’t think there’s a reason I just think that it happened and will end eventually and probably happen again. I personally don’t think we were created by anything. I think we were a freak accident of evolution. The only reason I see is because everything happens for a reason." - Reid
++
+![Execution]
+Since I wanted to see how people felt, I chose to do an emotional analysis on the answers.
++
+I used IBM Watson's Natural Language Understanding API to conduct the analysis, and I wrote it in Python 3.
++
+Here is the requirements.txt file for my code:
+@[An Existential Lemon Requirements>/resources/an-existential-lemon-requirements.txt]
++
+Here is the app.py file for my code:
+@[An Existential Lemon App>/resources/an-existential-lemon-app.py]
++
+To use this, you must have your own API Key and URL for Watson Natural Language Understanding from IBM, which you can acquire at this @[link>https://www.ibm.com/cloud/watson-natural-language-understanding?p1=Search&p4=43700050290118662&p5=e&cm_mmc=Search_Google-_-1S_1S-_-WW_NA-_-ibm%20watson%20nlu_e&cm_mmca7=71700000061102158&cm_mmca8=kwd-913380840877&cm_mmca9=EAIaIQobChMInp7gmPns7AIVnINaBR3B2wJNEAAYASAAEgJxgfD_BwE&cm_mmca10=405936284822&cm_mmca11=e&gclid=EAIaIQobChMInp7gmPns7AIVnINaBR3B2wJNEAAYASAAEgJxgfD_BwE&gclsrc=aw.ds].
++
+First, I set up my API key so that I can actually use it for different quotes, and then I create a list to store the outputs of each quote, and use a for loop to append the results of each analysis to the list. Finally, I use Numpy to convert the list to a text file, with each analysis's score taking up only one line.
++
+Note that the code is licensed under the MIT License, which can be found @[here>https://choosealicense.com/licenses/mit/].
++
+After this, I copy and pasted the final text file, and added at the end of each line what it had the most of (for example, if a quote had .6 joy, .2 anger, and .2 sadness, I marked it as happiness).
++
+Then, I used Google Sheets to create a pie chart of the final emotions I found.
++
+![Results]
+These are the results I got after editing my final text file:
++
+{'usage': {'text_units': 1, 'text_characters': 1837, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.651426, 'joy': 0.638547, 'fear': 0.09123, 'disgust': 0.068881, 'anger': 0.129438}}}} - Sadness
++
+{'usage': {'text_units': 1, 'text_characters': 763, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.519747, 'joy': 0.54455, 'fear': 0.138109, 'disgust': 0.508455, 'anger': 0.08597}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 613, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.362354, 'joy': 0.40727, 'fear': 0.020635, 'disgust': 0.072417, 'anger': 0.262997}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 17, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.0, 'joy': 1.0, 'fear': 0.0, 'disgust': 0.0, 'anger': 0.0}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 1514, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.513668, 'joy': 0.61346, 'fear': 0.076296, 'disgust': 0.069963, 'anger': 0.097183}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 56, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.142523, 'joy': 0.651, 'fear': 0.11547, 'disgust': 0.065753, 'anger': 0.088864}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 149, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.235965, 'joy': 0.548765, 'fear': 0.121877, 'disgust': 0.048227, 'anger': 0.061249}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 249, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.144992, 'joy': 0.73865, 'fear': 0.01729, 'disgust': 0.01567, 'anger': 0.040963}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 124, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.218746, 'joy': 0.628829, 'fear': 0.068699, 'disgust': 0.053713, 'anger': 0.069142}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 174, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.520938, 'joy': 0.216461, 'fear': 0.18615, 'disgust': 0.075564, 'anger': 0.115704}}}} - Sadness
++
+{'usage': {'text_units': 1, 'text_characters': 64, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.730924, 'joy': 0.047707, 'fear': 0.226672, 'disgust': 0.052452, 'anger': 0.103406}}}} - Sadness
++
+{'usage': {'text_units': 1, 'text_characters': 20, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.30239, 'joy': 0.410991, 'fear': 0.131684, 'disgust': 0.110163, 'anger': 0.12613}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 45, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.289967, 'joy': 0.100635, 'fear': 0.14852, 'disgust': 0.461426, 'anger': 0.249215}}}} - Disgust
++
+{'usage': {'text_units': 1, 'text_characters': 317, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.165731, 'joy': 0.622631, 'fear': 0.186193, 'disgust': 0.016918, 'anger': 0.062295}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 84, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.244876, 'joy': 0.238685, 'fear': 0.077519, 'disgust': 0.07997, 'anger': 0.487508}}}} - Anger
++
+{'usage': {'text_units': 1, 'text_characters': 89, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.116668, 'joy': 0.719398, 'fear': 0.022013, 'disgust': 0.115115, 'anger': 0.075318}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 327, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.516934, 'joy': 0.073324, 'fear': 0.532283, 'disgust': 0.029906, 'anger': 0.06851}}}} - Fear
++
+{'usage': {'text_units': 1, 'text_characters': 87, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.222277, 'joy': 0.289602, 'fear': 0.293522, 'disgust': 0.032713, 'anger': 0.101121}}}} - Fear
++
+{'usage': {'text_units': 1, 'text_characters': 102, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.124942, 'joy': 0.623573, 'fear': 0.023901, 'disgust': 0.066699, 'anger': 0.231721}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 266, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.377128, 'joy': 0.173415, 'fear': 0.277159, 'disgust': 0.103032, 'anger': 0.20492}}}} - Sadness
++
+{'usage': {'text_units': 1, 'text_characters': 408, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.18385, 'joy': 0.764368, 'fear': 0.021745, 'disgust': 0.011781, 'anger': 0.021599}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 103, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.091512, 'joy': 0.707545, 'fear': 0.132067, 'disgust': 0.004223, 'anger': 0.082756}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 28, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.884737, 'joy': 0.021254, 'fear': 0.159696, 'disgust': 0.054361, 'anger': 0.060875}}}} - Sadness
++
+{'usage': {'text_units': 1, 'text_characters': 111, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.264839, 'joy': 0.185067, 'fear': 0.355275, 'disgust': 0.029387, 'anger': 0.124094}}}} - Fear
++
+{'usage': {'text_units': 1, 'text_characters': 13, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.148831, 'joy': 0.179551, 'fear': 0.091248, 'disgust': 0.074744, 'anger': 0.088473}}}} - Sadness
++
+{'usage': {'text_units': 1, 'text_characters': 115, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.120976, 'joy': 0.620436, 'fear': 0.106299, 'disgust': 0.081574, 'anger': 0.05267}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 121, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.517873, 'joy': 0.235778, 'fear': 0.134788, 'disgust': 0.107343, 'anger': 0.088196}}}} - Sadness
++
+{'usage': {'text_units': 1, 'text_characters': 459, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.126377, 'joy': 1.0, 'fear': 0.047387, 'disgust': 0.037918, 'anger': 0.048131}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 35, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.190863, 'joy': 0.261206, 'fear': 0.087985, 'disgust': 0.108563, 'anger': 0.107292}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 176, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.078308, 'joy': 0.750666, 'fear': 0.117183, 'disgust': 0.024776, 'anger': 0.047571}}}} - Joy
++
+{'usage': {'text_units': 1, 'text_characters': 97, 'features': 1}, 'language': 'en', 'emotion': {'document': {'emotion': {'sadness': 0.449535, 'joy': 0.302526, 'fear': 0.136247, 'disgust': 0.249119, 'anger': 0.015134}}}} - Sadness
++
+Note that I only have 31 lines, even though I asked 32 friends. This is because one of the answers from my friend was too short for the API to handle.
++
+Here is my pie chart:
++
+&[lemon-chart]
++
+![Conclusion]
+From the results, we see that there was an overwhelming amount of joy in the results. I personally found this weird because I thought everyone sulked on topics like this, but guess not.
++
+These results do confirm one thing for me though. And that is that humans will never lose hope.
++
+Proof for this comes from the results. The fact that such a mysterious and somewhat frightening topic can have a positive outcome shows how hopeful humans are.
++
+And so, even in the most uncertain times, we must remember that there is always hope for us.
++
+_[Upload Date: November 5, 2020]
++
+_[Revision Number: 0]
++
+_[Time: 10:31 PM EST]
