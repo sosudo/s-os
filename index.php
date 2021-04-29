@@ -3,9 +3,9 @@
 if (isset($_GET['v'])) {
 	if ($_GET['v']) {
 		$v = strtolower($_GET['v']);
-	} else $v = 'clarity';
+	} else $v = 'sos';
 } else {
-	$_GET['v'] = 'clarity';
+	$_GET['v'] = 'sos';
 	$v = $_GET['v'];
 }
 
