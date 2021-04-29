@@ -30,8 +30,8 @@
 		<div id="body-content">
 			<div class="quote">
 				<em>
-					<p id="greeter"></p>
-					<p id="time" class="time"></p>
+					<h3 id="greeter"></h3>
+					<h3 id="time" class="time"></h3>
 				</em>
 			</div>
 			<?php echo $artifact->attributes['content'];?>
