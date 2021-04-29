@@ -5,13 +5,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>S · Index</title>
+	<title>S · OS</title>
 	<link rel="icon"
       type="image/png"
       href="media/images/favicon.png">
 	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"> -->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Roboto+Mono">
 	<link rel="stylesheet" type="text/css" href="assets/styles/style.css?">
+	<script src="assets/main.js"></script>
 </head>
 
 <body>
@@ -27,6 +28,8 @@
 
 	<div id="body">
 		<div id="body-content">
+			<h1 id="greeter"></h1>
+                  <h1 id="time" class="time"></h1>
 			<?php echo $artifact->attributes['content'];?>
 		</div>
 	</div>
