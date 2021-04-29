@@ -28,8 +28,12 @@
 
 	<div id="body">
 		<div id="body-content">
-			<i><blockquote id="greeter"></blockquote>
-                  <blockquote id="time" class="time"></blockquote></i>
+			<div class="quote">
+				<em>
+					<p id="greeter"></p>
+					<p id="time" class="time"></p>
+				</em>
+			</div>
 			<?php echo $artifact->attributes['content'];?>
 		</div>
 	</div>
