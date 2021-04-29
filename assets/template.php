@@ -28,8 +28,8 @@
 
 	<div id="body">
 		<div id="body-content">
-			<h1 id="greeter"></h1>
-                  <h1 id="time" class="time"></h1>
+			<i><h5 id="greeter"></h5>
+                  <h5 id="time" class="time"></h5></i>
 			<?php echo $artifact->attributes['content'];?>
 		</div>
 	</div>
