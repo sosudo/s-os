@@ -48,10 +48,10 @@ body {
 	width: 100%;
   	backdrop-filter: blur(5px);
 }
-html::-webkit-scrollbar {
+html::-webkit-scrollbar, body::-webkit-scrollbar {
 	display: none;
 }
-html {
+html, body {
 	-ms-overflow-style: none;
 	scrollbar-width: none;
 }
