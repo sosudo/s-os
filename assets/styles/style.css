@@ -106,7 +106,7 @@ a.external:after {
 	color: var(--text);
 	background: var(--color);
 }
-/*
+
 ::-webkit-scrollbar {
 	width: 6px;
 	background-color: var(--color);
@@ -115,7 +115,7 @@ a.external:after {
 ::-webkit-scrollbar-thumb {
 	background-color: var(--scroll);
 }
-*/
+
 /*-----------MEDIA-----------*/
 .media {
 	width: 100%;
