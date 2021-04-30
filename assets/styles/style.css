@@ -109,11 +109,11 @@ a.external:after {
 
 ::-webkit-scrollbar {
 	width: 6px;
-	background-color: var(--color);
+	background-color: black;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: var(--scroll);
+	background-color: black;
 }
 
 /*-----------MEDIA-----------*/
