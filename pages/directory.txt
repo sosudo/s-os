@@ -1,0 +1,11 @@
+name: directory
+
+image: directory
+
+title: Welcome to the Directory
+
+content:
++
+![Directory Contents]
+Five other pages exist in this instance of #[S · OS > sos]
+/#[Back]
