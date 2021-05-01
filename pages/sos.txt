@@ -1,6 +1,6 @@
 name: sos
 
-image: favicon
+image: s-os
 
 title: Welcome to S · OS
 
