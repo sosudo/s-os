@@ -7,9 +7,9 @@ title: Welcome to the Directory
 content:
 +
 ![Directory Contents]
-/@[Back > /]
+Five other pages exist in this instance of S · OS.
 +
-Four other pages exist in this instance of /#[SOS].
+/@[Back > /]
 +
 /#[404]
 +
