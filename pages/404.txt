@@ -11,14 +11,14 @@ title: _[$[self]] could not be found.
 content: This is the #[404] page. Seems like you tried to search for _[$[self]] and couldn't find it.
 +
 +
-Eleven other pages exist in this instance of @[S · OS > /].
+Four other pages exist in this instance of @[S · OS > /].
 +
 ![Other pages:]
 +
 @[/>/]
 +
-/#[404]
+@[/404 > 404]
 +
-/#[Conception]
+@[/Conception > conception]
 +
-/#[Perception]
+@[/Perception > perception]

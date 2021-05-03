@@ -7,10 +7,10 @@ title: Welcome to @[S · OS > /]
 content:
 +
 ![Where would you like to go today?]
-/#[Perception]
+@[/Perception > perception]
 +
-/#[Conception]
+@[/Conception > conception]
 +
-/#[Settings]
+@[/Settings > settings]
 +
-/#[Directory]
+@[/Directory > directory]

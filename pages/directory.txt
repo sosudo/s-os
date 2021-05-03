@@ -10,8 +10,8 @@ content:
 +
 @[/>/]
 +
-/#[404]
+@[/404 > 404]
 +
-/#[Conception]
+@[/Conception > conception]
 +
-/#[Perception]
+@[/Perception > perception]
