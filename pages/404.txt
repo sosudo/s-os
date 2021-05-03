@@ -15,7 +15,7 @@ Eleven other pages exist in this instance of @[S · OS > /].
 +
 ![Other pages:]
 +
-/@[/]
+/@[>/]
 +
 /#[404]
 +
