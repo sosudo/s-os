@@ -2,7 +2,7 @@ name: sos
 
 image: s-os
 
-title: Welcome to S · OS
+title: Welcome to @[S · OS > /]
 
 content:
 +

@@ -6,14 +6,12 @@ title: Welcome to the Directory
 
 content:
 +
-![Five other pages exist in this instance of S · OS.]
+![Four other pages exist in this instance of @[S · OS > /].]
 +
-/@[Back > /]
+/@[/]
 +
 /#[404]
 +
 /#[Conception]
 +
 /#[Perception]
-+
-/#[SOS]
