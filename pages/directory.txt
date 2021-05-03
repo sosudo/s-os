@@ -8,7 +8,7 @@ content:
 +
 ![Four other pages exist in this instance of @[S · OS > /].]
 +
-/@[>/]
+@[/>/]
 +
 /#[404]
 +
