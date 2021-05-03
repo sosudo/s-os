@@ -41,3 +41,8 @@ Even and Distinct
 PyCirc
 USACO
 Assembly Decompiler
+
+Projects
+Clarity
+Imperial
+Research Papers
