@@ -6,9 +6,9 @@ image name: #[404]
 
 tags: page, 404
 
-title: _[$[self]] could not be found.
+title: The page you requested could not be found.
 
-content: This is the #[404] page. Seems like you tried to search for _[$[self]] and couldn't find it.
+content: This is the #[404] page. Seems like you tried to search for a page that either doesn't existed or is restricted.
 +
 +
 Four other pages exist in this instance of @[S · OS > /].
