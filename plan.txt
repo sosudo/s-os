@@ -41,8 +41,11 @@ Even and Distinct
 PyCirc
 USACO
 Assembly Decompiler
+An Existential Lemon
+Cherophobia
+The Magic of Four
+Bad Math
 
 Projects
-Clarity
 Imperial
 Research Papers
