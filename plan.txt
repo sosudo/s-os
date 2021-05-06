@@ -25,6 +25,38 @@ HiderJS
 Neutron
 LinReg
 Snake Traditional
+Philip Is Beautiful
+Space Web VR
+Subuntu 14.04.5
+Imperial Map
+Modernist Map
+Secre-Mail
+Imperial Engine Search
+Imperial Engine Medical
+Natalia
+Canvas
+2048 Dark
+Hyper-Edit
+Elle
+Sparkit
+Christmas Lights
+Rescript
+Imperial Engine Medical Search Private
+Imperial Engine Search Private
+Imperial Engine Book Search
+Imperial Engine Search Two
+Canvas 3
+Garden Note
+Focus Tab
+Breakout Disco
+Imperial Map N
+Imperial News
+Chesshut
+Roman Decimal Converter Table
+Random
+Multiplication Chart
+Weather Station Map
+Impish Speed Test
 
 Perception
 Crouton-OS
@@ -45,7 +77,10 @@ An Existential Lemon
 Cherophobia
 The Magic of Four
 Bad Math
+The Complex Square Function
+Muninn
+Hello World PWA
+Form 1A
 
 Projects
 Imperial
-Research Papers
