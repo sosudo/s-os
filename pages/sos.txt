@@ -11,6 +11,6 @@ content:
 +
 @[/Conception > conception]
 +
-@[/Settings > settings]
+@[/Settings > settings.html]
 +
 @[/Directory > directory]
