@@ -22,3 +22,5 @@ Four other pages exist in this instance of @[S · OS > /].
 @[/Conception > conception]
 +
 @[/Perception > perception]
++
+@[/Settings > settings.html]
