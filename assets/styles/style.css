@@ -79,21 +79,21 @@ a {
 	font-weight: 700;
 }
 
-a:hover, .settings:hover {
+a:hover {
 	text-decoration: underline;
 }
 
-a.external:after, .settings:after {
+a.external:after {
 	content: "";
 	color: var(--after);
 }
 
-.neutral-link, .settings {
+.neutral-link {
 	text-decoration: none;
 	font-weight: 400;
 }
 
-.neutral-link:hover, .settings {
+.neutral-link:hover {
 	font-weight: 400;
 }
 
