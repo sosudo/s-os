@@ -6,7 +6,7 @@ title: Welcome to the Directory
 
 content:
 +
-![Five other pages exist in this instance of @[S · OS > /].]
+![Six other pages exist in this instance of @[S · OS > /].]
 +
 @[/>/]
 +

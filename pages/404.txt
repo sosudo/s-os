@@ -11,7 +11,7 @@ title: The page you requested could not be found.
 content: This is the #[404] page. Seems like you tried to search for a page that either doesn't existed or is restricted.
 +
 +
-Four other pages exist in this instance of @[S · OS > /].
+Six other pages exist in this instance of @[S · OS > /].
 +
 ![Other pages:]
 +
@@ -24,3 +24,5 @@ Four other pages exist in this instance of @[S · OS > /].
 @[/Perception > perception]
 +
 @[/Settings > settings.html]
++
+@[/Natalia > natalia]
