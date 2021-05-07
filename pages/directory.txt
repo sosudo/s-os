@@ -6,7 +6,7 @@ title: Welcome to the Directory
 
 content:
 +
-![Four other pages exist in this instance of @[S · OS > /].]
+![Five other pages exist in this instance of @[S · OS > /].]
 +
 @[/>/]
 +
@@ -15,3 +15,5 @@ content:
 @[/Conception > conception]
 +
 @[/Perception > perception]
++
+@[/Settings > settings.html]

@@ -81,6 +81,3 @@ The Complex Square Function
 Muninn
 Hello World PWA
 Form 1A
-
-Projects
-Imperial
