@@ -12,6 +12,9 @@ content:
 Axle's source code can be found on @[GitHub > https://github.com/sosudo/Axle-the-Calculator].
 +
 ![Links]
++
 @[/ > /]
++
 @[/Back > conception]
++
 @[GitHub > https://github.com/sosudo/Axle-the-Calculator]

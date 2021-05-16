@@ -16,6 +16,9 @@ You can view this project running on its @[subdomain > https://natalia.s-os.dev]
 _[Please note that Natalia is an abandoned project.]
 +
 ![Links]
++
 @[/ > /]
++
 @[/Back > conception]
++
 @[/Natalia > https://natalia.s-os.dev]
