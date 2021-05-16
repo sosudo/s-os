@@ -1,0 +1,17 @@
+name: axle-the-calculator
+
+image: axle-the-calculator
+
+title: Welcome to @[Axle the Calculator > /axle-the-calculator]
+
+content:
++
+![Axle: the Two Integer Calculator]
+@[Axle > /axle-the-calculator] is a simple two integer calculator written in Python and developed on @[CodeHS > https://codehs.com/].
++
+Axle's source code can be found on @[GitHub > https://github.com/sosudo/Axle-the-Calculator].
++
+![Links]
+@[/ > /]
+@[/Back > conception]
+@[GitHub > https://github.com/sosudo/Axle-the-Calculator]

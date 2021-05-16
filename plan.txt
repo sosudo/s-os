@@ -1,5 +1,4 @@
 Conception
-Axle the Calculator
 GitHug
 Madlibs
 Spectral Markup (Deprecated)

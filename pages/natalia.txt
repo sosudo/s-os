@@ -6,11 +6,16 @@ title: Welcome to #[Natalia]
 
 content:
 +
-![Natalia is an AI]
-#[Natalia] is an AI chatbot created for assistance with ESL (English as a Second Language) programs.
+![Natalia: the ESL Helper]
+#[Natalia] is an AI chatbot created for assistance with ESL (English as a Second Language) programs, created using DialogFlow.
 +
 The point is to have a chatbot that anyone can talk to for communication training.
 +
 You can view this project running on its @[subdomain > https://natalia.s-os.dev].
 +
-View on subdomain: @[Natalia > https://natalia.s-os.dev]
+_[Please note that Natalia is an abandoned project.]
++
+![Links]
+@[/ > /]
+@[/Back > conception]
+@[/Natalia > https://natalia.s-os.dev]
