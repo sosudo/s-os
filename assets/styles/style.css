@@ -167,7 +167,7 @@ a.external:after {
 #body-content {
 	max-width: 100%;
 	margin: auto;
-	padding-top: 10px;
+	padding-top: 40px;
 	background-color: var(--def);
 	border-left: solid 1px var(--color);
 	border-right: solid 1px var(--color);
@@ -266,6 +266,18 @@ a.external:after {
 	margin: 0 40px 40px 40px;
 	padding: 0 40px 0 40px;
 	font-family: "Montserrat", sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	line-height: 36px;
+	border-left: solid 1px var(--color);
+}
+
+.quote {
+	width: calc(100% - 80px);
+	margin: 0 40px 40px 40px;
+	padding: 0 10px 0 10px;
+	font-family: "Montserrat",
+	sans-serif;
 	font-style: italic;
 	font-size: 20px;
 	line-height: 36px;
