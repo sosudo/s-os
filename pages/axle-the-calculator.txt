@@ -14,4 +14,4 @@ Axle's source code can be found on @[GitHub > https://github.com/sosudo/Axle-the
 +
 @[/Back > conception]
 +
-@[GitHub > https://github.com/sosudo/Axle-the-Calculator]
+@[/GitHub > https://github.com/sosudo/Axle-the-Calculator]
