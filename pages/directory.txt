@@ -5,9 +5,7 @@ image: directory
 title: Welcome to the Directory
 
 content:
-+
 ![Six other pages exist in this instance of @[S · OS > /].]
-+
 @[/>/]
 +
 @[/404 > 404]

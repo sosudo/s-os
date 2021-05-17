@@ -9,12 +9,8 @@ tags: page, 404
 title: The page you requested could not be found.
 
 content: This is the #[404] page. Seems like you tried to search for a page that either doesn't existed or is restricted.
-+
-+
 Six other pages exist in this instance of @[S · OS > /].
-+
 ![Other pages:]
-+
 @[/>/]
 +
 @[/404 > 404]

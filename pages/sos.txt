@@ -5,7 +5,6 @@ image: s-os
 title: Welcome to @[S · OS > /]
 
 content:
-+
 ![Where would you like to go today?]
 @[/Perception > perception]
 +
