@@ -1,5 +1,4 @@
 Conception
-GitHug
 Madlibs
 Spectral Markup (Deprecated)
 Secre-Mail F
